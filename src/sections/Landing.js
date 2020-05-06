@@ -89,7 +89,7 @@ const LandingPage = () => (
             >
               <TextLoop interval={3000}>
                 {roles
-                  .sort(() => deterministicBehaviour || Math.random() - 0.5)
+                  // .sort(() => deterministicBehaviour || Math.random() - 0.5)
                   .map((text) => (
                     <Text width={[300, 500]} key={text}>
                       {text}
